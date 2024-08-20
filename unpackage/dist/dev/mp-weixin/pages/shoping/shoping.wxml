@@ -1,0 +1,1 @@
+<view><text class="sousuo" selectable="true">请输入想要搜索的商品</text></view><view class="a"></view><view class="zhanwei">可视化库存</view><view class="buju"><button type="primary" plain>新增商品</button><view class="a"></view><button type="primary" bindtap="{{a}}">商品进货</button></view><view>{{b}}</view><view wx:for="{{c}}" wx:for-item="item"> name:{{item.a}},price:{{item.b}}</view>

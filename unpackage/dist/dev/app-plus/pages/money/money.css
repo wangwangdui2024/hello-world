@@ -1,0 +1,66 @@
+
+.container {
+                 padding: 0.625rem;
+}
+.box {
+                 width: 21.875rem;
+                 height: 3.75rem;
+                 background: #5555ff;
+                 display: flex;
+                 align-items: center;
+                 justify-content: space-between;
+}
+.add-button {
+                 width: 6.25rem;
+                 height: 1.875rem;
+                 background: #4CAF50;
+                 color: white;
+                 text-align: center;
+                 line-height: 1.875rem;
+                 border-radius: 0.3125rem;
+}
+.table {
+                 width: 21.875rem;
+                 margin-top: 0.625rem;
+                 background: #f9f9f9;
+				 border: #ccc 0.15625rem solid;
+				 box-shadow: #b6b6b6 0.09375rem 0.09375rem;
+				 border-radius: 0.25rem;
+}
+.table-row {
+                 display: flex;
+                 justify-content: space-between;
+                 border-bottom: 0.03125rem solid #ccc;
+}
+.table-row1 {
+			     display: flex;
+			     justify-content: space-between;
+				 background-color: #ccc065;
+			     border-bottom: 0.03125rem solid #ccc065;
+}
+.table-header {
+                 font-weight: bold;
+                 width: 33%;
+				 height: 100%;
+}
+.table-cell {
+                 width: 33%;
+}
+.action-button {
+                 margin-right: 0.3125rem;
+                 background: #f0ad4e;
+                 color: white;
+                 border-radius: 0.15625rem;
+                 padding: 0.15625rem 0.3125rem;
+                 font-size: 0.75rem;
+				 box-shadow: #ccc 0.09375rem 0.09375rem;
+}
+.disable{
+				 
+                 border: #b6b6b6 0.15625rem solid;
+				 margin:0.625rem;
+				 box-shadow: #5555ff 0.0625rem 0.0625rem 0.0625rem 0.0625rem;
+				 border-radius: 0.25rem;
+				 padding: 0.625rem;
+}
+               

@@ -1,0 +1,54 @@
+{
+  "pages": [
+    "pages/shoping/shoping",
+    "pages/store/store",
+    "pages/money/money",
+    "pages/num/num",
+    "pages/per/per",
+    "pages/index/index",
+    "pages/pages1/pages1",
+    "pages1/pages1",
+    "pages/xinzeng/xinzeng"
+  ],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "摆摊王",
+    "navigationBarBackgroundColor": "#F8F8F8",
+    "backgroundColor": "#F8F8F8"
+  },
+  "tabBar": {
+    "list": [
+      {
+        "text": "进货管理",
+        "pagePath": "pages/shoping/shoping",
+        "iconPath": "static/cart_empty.png",
+        "selectedIconPath": "static/cart.png"
+      },
+      {
+        "text": "进货管理",
+        "pagePath": "pages/store/store",
+        "iconPath": "static/仓库库存.png",
+        "selectedIconPath": "static/仓库库存 (1).png"
+      },
+      {
+        "text": "进货管理",
+        "pagePath": "pages/money/money",
+        "iconPath": "static/order_unread.png",
+        "selectedIconPath": "static/order.png"
+      },
+      {
+        "text": "进货管理",
+        "pagePath": "pages/num/num",
+        "iconPath": "static/数据.png",
+        "selectedIconPath": "static/num.png"
+      },
+      {
+        "text": "进货管理",
+        "pagePath": "pages/per/per",
+        "iconPath": "static/用户.png",
+        "selectedIconPath": "static/user.png"
+      }
+    ]
+  },
+  "usingComponents": {}
+}

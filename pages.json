@@ -1,0 +1,124 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/shoping/shoping",
+			"style": {
+				"navigationBarTitleText": "进货管理"
+			}
+		},
+		{
+			"path": "pages/store/store",
+			"style": {
+				"navigationBarTitleText": "库存管理"
+			}
+		},
+		{
+			"path": "pages/money/money",
+			"style": {
+				"navigationBarTitleText": "财务报表"
+			}
+		},
+		{
+			"path": "pages/num/num",
+			"style": {
+				"navigationBarTitleText": "数据报表"
+			}
+		},
+		{
+			"path": "pages/per/per",
+			"style": {
+				"navigationBarTitleText": "个人中心"
+			}
+		},
+		{
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText": "摆摊王"
+			}
+		},
+		{
+			"path" : "pages/xinzeng/xinzeng",
+			"style" : 
+			{
+				"navigationBarTitleText" : "库存盘点"
+			}
+		},
+		{
+			"path": "pages/shoppingcart/shoppingcart",
+			"style": {
+				"navigationBarTitleText": "购物车"
+			}
+		},
+		{
+			"path": "pages/kucuntiaozheng_decrease/kucuntiaozheng_decrease",
+			"style": {
+				"navigationBarTitleText": "库存减少"
+			}
+		},
+		{
+			"path": "pages/kucuntiaozheng_increase/kucuntiaozheng_increase",
+			"style": {
+				"navigationBarTitleText": "库存增加"
+			}
+		},
+		{
+			"path": "pages/gallery/gallery",
+			"style": {
+				"navigationBarTitleText": "gallery"
+			}
+		},
+		{
+			"path": "pages/function/function",
+			"style": {
+				"navigationBarTitleText": "function"
+			}
+		},
+		{
+			"path" : "pages/salesReport/salesReport",
+			"style" : 
+			{
+				"navigationBarTitleText" : ""
+			}
+		}
+	],
+	"tabBar": {
+		"list": [
+			{   "text": "进货管理",
+				"pagePath": "pages/shoping/shoping",
+				"iconPath": "static/cart_empty.png",
+				"selectedIconPath": "static/cart.png"
+			},
+			{
+				"text": "仓库管理",
+				"pagePath": "pages/store/store",
+				"iconPath": "static/仓库库存.png",
+				"selectedIconPath": "static/仓库库存 (1).png"
+			},
+			{
+				"text": "财务管理",
+				"pagePath": "pages/money/money",
+				"iconPath": "static/order_unread.png",
+				"selectedIconPath": "static/order.png"
+			},
+			{
+				"text": "数据管理",
+				"pagePath": "pages/num/num",
+				"iconPath": "static/数据.png",
+				"selectedIconPath": "static/num.png"
+			},
+			{
+				"text": "用户管理",
+				"pagePath": "pages/per/per",
+				"iconPath": "static/用户.png",
+				"selectedIconPath": "static/user.png"
+			}
+		]
+	},
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "摆摊王",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8"
+	},
+	"uniIdRouter": {}
+}

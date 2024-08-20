@@ -1,0 +1,23 @@
+
+.container[data-v-ff88f784] {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #f8f8f8;
+}
+uni-button[data-v-ff88f784] {
+  padding: 0.625rem 1.25rem;
+  background-color: #27ba9b;
+  color: white;
+  border-radius: 0.3125rem;
+  font-size: 1rem;
+  margin-bottom: 0.625rem;
+}
+.preview[data-v-ff88f784] {
+  width: 9.375rem;
+  height: 9.375rem;
+  border: 1px solid #ccc;
+  border-radius: 0.3125rem;
+}

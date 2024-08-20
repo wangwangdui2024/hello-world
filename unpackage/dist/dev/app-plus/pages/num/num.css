@@ -1,0 +1,64 @@
+
+.container {
+  padding: 20px;
+  background: linear-gradient(135deg, #f0f4f8, #e8f1f4);
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.date-picker {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+.picker-item {
+  background-color: #ffffff;
+  border: 1px solid #dcdcdc;
+  border-radius: 8px;
+  padding: 12px;
+  width: 48%;
+  text-align: center;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease;
+}
+.picker-item:hover {
+  background-color: #f9f9f9;
+  border-color: #bfbfbf;
+}
+.report-summary {
+  background-color: #ffffff;
+  border: 1px solid #dcdcdc;
+  border-radius: 12px;
+  padding: 20px;
+  margin-bottom: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+.summary-item {
+  margin-bottom: 12px;
+  font-size: 18px;
+  color: #333;
+}
+.value {
+  font-weight: 600;
+  color: #2a9d8f;
+}
+.sales-details {
+  background-color: #ffffff;
+  border: 1px solid #dcdcdc;
+  border-radius: 12px;
+  padding: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+.detail-item {
+  margin-bottom: 12px;
+  font-size: 16px;
+  color: #333;
+}
+.date {
+  font-weight: 600;
+  color: #4a90e2;
+}
+.number {
+  color: #e76f51;
+}
+.value {
+  color: #2a9d8f;
+}
